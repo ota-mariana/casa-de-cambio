@@ -1,0 +1,23 @@
+{
+  "name": "casa-de-cambio",
+  "version": "1.0.0",
+  "description": "Projeto que converte os valores das moedas, este projeto foi realizado em aula pelo instrutor Gabriel Oliva com o intuito de revisar e fixar os conhecimentos em JavaScript Assíncrono e callbacks.",
+  "main": "api.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ota-mariana/casa-de-cambio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ota-mariana/casa-de-cambio/issues"
+  },
+  "homepage": "https://github.com/ota-mariana/casa-de-cambio#readme",
+  "dependencies": {
+    "vite": "^4.0.3"
+  }
+}
