@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 const BASE_URL = 'https://api.exchangerate.host';
 const LATEST_ENDPOINT = '/latest';
 
@@ -13,13 +11,11 @@ const fetchCurrency = async (currency) => {
   try {
     const response = await fetch(endpoint);
     const data = await response.json();
+
     return data;
   } catch (error) {
-    throw error;
+    return error;
   }
 };
 
-module.exports = {
-  urlBasedOnCurrency,
-  fetchCurrency,
-};
+export default fetchCurrency;

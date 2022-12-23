@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ota-mariana/casa-de-cambio#readme",
   "dependencies": {
+    "sweetalert2": "^11.6.16",
     "vite": "^4.0.3"
   }
 }
